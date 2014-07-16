@@ -1,7 +1,5 @@
 @echo off
 
-setlocal
-
 set PCD_CONFIG=%USERPROFILE%\.pcd
 
 if "%1" equ "add" (
@@ -43,4 +41,3 @@ for /f %%i in ('type ^"%PCD_CONFIG%^" ^| peco') do (
 )
 
 :end
-endlocal
