@@ -4,7 +4,7 @@ set PCD_CONFIG=%USERPROFILE%\.pcd
 
 if "%1" equ "add" (
   if "%2" neq "" (
-    echo %~dpf2 >> "%PCD_CONFIG%"
+    echo %~dpf2>> "%PCD_CONFIG%"
     goto end
   )
   goto usage
