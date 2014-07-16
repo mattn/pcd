@@ -5,6 +5,7 @@ peco + cd = awesome!
 ## Requirements
 
 * [peco](https://github.com/peco/peco)
+* Windows
 
 ## Installation
 
