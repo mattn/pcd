@@ -34,7 +34,7 @@ C:\Users\mattn>pcd
 Just type `temp` and `ENTER`.
 
 ```
-C:\Users\mattn\AppData\Local\Temp
+C:\Users\mattn\AppData\Local\Temp>
 ```
 
 If you want to edit configuration, type `pcd edit`.
