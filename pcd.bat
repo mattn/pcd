@@ -35,7 +35,7 @@ rem
 rem If you have a problem caused by character-set, modify below part like:
 rem   'type ^"%USERPROFILE%\.pcd^" ^| iconv -f char -t utf-8 ^| peco --null'
 rem
-for /f %%i in ('type ^"%PCD_CONFIG%^" ^| peco') do (
+for /f "delims=" %%i in ('type ^"%PCD_CONFIG%^" ^| peco') do (
   cd /D %%i
   break
 )
